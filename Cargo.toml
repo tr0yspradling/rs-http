@@ -1,0 +1,17 @@
+[package]
+name = "rs-http"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.22"
+url = "2.5.2"
+colored = "2.1.0"
+
+[[bin]]
+name = "rs-http"
+path = "src/main.rs"
+
+[lib]
+name = "rs_http"
+path = "src/lib.rs"
